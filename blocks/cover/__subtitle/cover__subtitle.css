@@ -6,3 +6,12 @@
   font-weight: 400;
   text-align: center;
 }
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+    font-size: 0.875rem;
+    line-height: 1rem;
+    max-width: 81%;
+    margin-top: 1rem;
+  }
+}
