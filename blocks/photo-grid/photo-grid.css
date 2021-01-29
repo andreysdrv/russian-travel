@@ -22,11 +22,13 @@
 @media screen and (max-width: 768px) {
   .photo-grid {
     margin: 0 1.5rem;
+    padding-bottom: 5.5rem;
   }
 }
 
 @media screen and (max-width: 320px) {
   .photo-grid {
     margin: 0 1rem;
+    padding-bottom: 4rem;
   }
 }
