@@ -6,3 +6,15 @@
   line-height: 0.875rem;
   letter-spacing: 0.15rem;
 }
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    margin-left: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__caption {
+    margin-left: 1rem;
+  }
+}

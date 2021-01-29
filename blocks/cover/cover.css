@@ -1,0 +1,25 @@
+.cover {
+  max-width: 1184px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+.cover:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #2A2C2F;
+  opacity: .3;
+  transition: .3s ease;
+}
+
+.cover:hover:after {
+  opacity: .8;
+}
