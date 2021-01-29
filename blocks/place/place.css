@@ -3,3 +3,23 @@
   grid-template-columns: 460px 1fr;
   grid-column-gap: 2.5rem;
 }
+
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns: 440px 1fr;
+    grid-column-gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: 340px 1fr;
+    grid-column-gap: 1.75rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    grid-template-columns: 1fr;
+  }
+}
