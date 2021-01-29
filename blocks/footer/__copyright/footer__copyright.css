@@ -8,3 +8,10 @@
   content: '\00A9';
   margin-right: 0.3rem;
 }
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    line-height: 0.875rem;
+    margin-top: 1rem;
+  }
+}

@@ -5,3 +5,23 @@
   justify-content: space-between;
   padding: 5.75rem 0 1.5rem 0;
 }
+
+@media screen and (max-width: 1280px) {
+  .footer {
+    max-width: 90.625%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding-top: 5.5rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    padding-top: 4rem;
+    flex-direction: column;
+    margin: 0 1rem;
+  }
+}
