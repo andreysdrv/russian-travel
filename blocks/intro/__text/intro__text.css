@@ -5,3 +5,16 @@
   font-size: 1rem;
   line-height: 1.63rem;
 }
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    max-width: 93.75%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__text {
+    font-size: 1rem;
+    line-height: 1.63rem;
+  }
+}
