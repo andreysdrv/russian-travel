@@ -20,6 +20,8 @@
 @media screen and (max-width: 767px) {
   .place__paragraph {
     grid-column: 1;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
   
   .place__paragraph:first-of-type {

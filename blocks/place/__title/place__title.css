@@ -12,6 +12,12 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .place__title {
+    margin-left: 1.5rem;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place__title {
     font-size: 2rem;

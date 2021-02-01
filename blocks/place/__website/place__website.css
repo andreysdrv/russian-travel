@@ -3,6 +3,12 @@
   margin-bottom: 3rem;
 }
 
+@media screen and (max-width: 767px) {
+  .place__website {
+    margin-left: 1.5rem;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place__website {
     margin: 0 1rem 2rem 1rem;
