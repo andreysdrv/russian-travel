@@ -5,11 +5,16 @@
   line-height: 4.75rem;
   font-weight: 900;
   text-align: center;
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 1;
+  justify-self: center;
+  align-self: end;
 }
 
 @media screen and (max-width: 767px) {
   .cover__title {
-    font-size: 8vw;
+    font-size: 11vw;
     line-height: 1.1;
     max-width: 80%;
   }
@@ -26,7 +31,6 @@
 @media screen and (max-width: 319px) {
   .cover__title {
     font-size: 11vw;
-    line-height: 1.2;
-    max-width: 80%;
+    line-height: 1.1;
   }
 }
