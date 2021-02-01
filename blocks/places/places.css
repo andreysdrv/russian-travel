@@ -2,8 +2,8 @@
   max-width: 984px;
   margin: 0 auto;
   display: grid;
-  gap: 5rem;
-  padding-bottom: 5.75rem;
+  gap: 80px;
+  padding-bottom: 92px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 768px) {
   .places {
-    gap: 4.5625rem;
+    gap: 73px;
     max-width: 93.75%;
   }
 }
@@ -27,7 +27,7 @@
 
 @media screen and (max-width: 320px) {
   .places {
-    gap: 3.125rem;
-    padding-bottom: 4rem;
+    gap: 50px;
+    padding-bottom: 64px;
   }
 }

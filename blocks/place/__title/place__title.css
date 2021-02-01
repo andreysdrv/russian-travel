@@ -1,27 +1,27 @@
 .place__title {
-  margin: 0 0 3rem 0;
+  margin: 0 0 48px 0;
   font-weight: 900;
-  font-size: 4.5rem;
-  line-height: 4.75rem;
+  font-size: 72px;
+  line-height: 76px;
 }
 
 @media screen and (max-width: 768px) {
   .place__title {
-    font-size: 2.625rem;
-    line-height: 2.875rem;
+    font-size: 42px;
+    line-height: 46px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place__title {
-    margin-left: 1.5rem;
+    margin-left: 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__title {
-    font-size: 2rem;
-    line-height: 2.375rem;
-    margin: 0 1rem 2rem 1rem;
+    font-size: 32px;
+    line-height: 38px;
+    margin: 0 16px 32px 16px;
   }
 }

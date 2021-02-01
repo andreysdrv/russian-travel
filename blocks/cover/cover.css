@@ -4,7 +4,7 @@
   position: relative;
   display: grid;
   grid-template-rows: repeat(2, min-content);
-  grid-gap: 2rem;
+  grid-gap: 32px;
 }
 
 .cover:before {
@@ -25,6 +25,6 @@
 
 @media screen and (max-width: 767px) {
   .cover {
-    grid-gap: 1rem;
+    grid-gap: 16px;
   }
 }

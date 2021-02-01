@@ -1,20 +1,20 @@
 .lead__caption {
-  margin: 0.5rem 0 0 0;
+  margin: 8px 0 0 0;
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 0.625rem;
-  line-height: 0.875rem;
-  letter-spacing: 0.15rem;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 2.4px;
 }
 
 @media screen and (max-width: 768px) {
   .lead__caption {
-    margin-left: 1.5rem;
+    margin-left: 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead__caption {
-    margin-left: 1rem;
+    margin-left: 16px;
   }
 }

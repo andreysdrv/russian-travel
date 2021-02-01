@@ -3,10 +3,10 @@
   text-decoration: none;
   color: #fff;
   font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.125rem;
+  font-size: 16px;
+  line-height: 18px;
   transition: .2s ease-in-out;
-  margin-right: 1.125rem;
+  margin-right: 18px;
 }
 
 .footer__link:hover {
@@ -15,9 +15,9 @@
 
 @media screen and (max-width: 767px) {
   .footer__link {
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
     margin-right: 0;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
+    font-size: 24px;
+    line-height: 24px;
   }
 }
