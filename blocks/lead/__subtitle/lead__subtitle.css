@@ -13,10 +13,19 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .lead__subtitle {
+    font-size: 5vw;
+    line-height: 1.2;
+    max-width: 90%;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .lead__subtitle {
     font-size: 1rem;
     line-height: 1.25rem;
     max-width: 90%;
+    margin-bottom: 2.5rem;
   }
 }

@@ -7,11 +7,28 @@
   text-align: center;
 }
 
+@media screen and (max-width: 767px) {
+  .cover__subtitle {
+    font-size: 3vw;
+    line-height: 1.1;
+    max-width: 80%;
+    margin-top: 1rem;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .cover__subtitle {
     font-size: 0.875rem;
     line-height: 1rem;
     max-width: 81%;
     margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .cover__subtitle {
+    font-size: 3vw;
+    line-height: 1.1;
+    max-width: 80%;
   }
 }

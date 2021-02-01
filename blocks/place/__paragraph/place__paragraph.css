@@ -17,14 +17,20 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    grid-column: 1;
+  }
+  
+  .place__paragraph:first-of-type {
+    margin-top: 2rem;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place__paragraph {
     grid-column: 1;
     margin: 0 auto 1.56rem auto;
     max-width: 90%;
-  }
-
-  .place__paragraph:first-of-type {
-    margin-top: 2rem;
   }
 }

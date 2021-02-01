@@ -18,6 +18,12 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .place {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place {
     grid-template-columns: 1fr;
