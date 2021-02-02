@@ -3,7 +3,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 29.34px;
-  margin: 0 0 24.96px 0;
+  margin: 0 0 25px 0;
 }
 
 .place__paragraph:last-of-type {
@@ -31,8 +31,7 @@
 
 @media screen and (max-width: 320px) {
   .place__paragraph {
-    grid-column: 1;
-    margin: 0 auto 24.96px auto;
+    margin: 0 auto 25px auto;
     max-width: 90%;
   }
 }
