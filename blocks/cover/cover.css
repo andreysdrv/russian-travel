@@ -17,6 +17,7 @@
   background-color: #2A2C2F;
   opacity: .3;
   transition: .3s ease;
+  margin: 0 auto;
 }
 
 .cover:hover::before {
